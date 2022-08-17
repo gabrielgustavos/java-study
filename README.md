@@ -7,3 +7,6 @@
 ### - Variables
 ### - Types of data (Strings, booleans, etc)
 ### - OOP
+### - String Methods
+### - Wrapper Class
+### - Primitive data type
