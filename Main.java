@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -116,7 +117,29 @@ public class Main {
       }
     }
 
+    /*
+     * Array List is a resizable array.
+     * 
+     * Elements can be added and removed after compilation phase
+     * store reference data types
+     * use wrapper class, primitive data types and objects
+     */
+
+    ArrayList<String> food = new ArrayList<String>();
+    food.add("Pizza");
+    food.add("Pasta");
+    food.add("Taco");
+    food.set(0, "Sushi");
+    food.remove(0);
+
+    for (String foodName : food) {
+      System.out.println("Food For Each Loop: " + foodName);
+    }
+
+    food.clear();
+
     // String methods
+
     String name = "Gabs";
     System.out.println("Name charAt: " + name.charAt(0));
     boolean resultName = name.equals("Gabs");
@@ -141,7 +164,7 @@ public class Main {
      */
 
     /*
-     * Primitive
+     * Primitive are more fastest than wrapper classes
      * 
      * boolean
      * char
