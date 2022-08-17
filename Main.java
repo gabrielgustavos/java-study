@@ -116,5 +116,37 @@ public class Main {
       }
     }
 
+    // String methods
+    String name = "Gabs";
+    System.out.println("Name charAt: " + name.charAt(0));
+    boolean resultName = name.equals("Gabs");
+    System.out.println(resultName);
+    int position = name.indexOf("a");
+    System.out.println("Position: " + position);
+    String replace = name.replace("Gabs", "Gabi");
+    System.out.println("Replace: " + replace);
+    String trim = name.trim();
+    System.out.println("Trim: " + trim);
+
+    /*
+     * Wrapper classes
+     * can be used with collections (ArrayList, HashMap, etc)
+     * 
+     * Boolean
+     * Character
+     * Integer
+     * Double
+     * String
+     * 
+     */
+
+    /*
+     * Primitive
+     * 
+     * boolean
+     * char
+     * int
+     * double
+     */
   }
 }
